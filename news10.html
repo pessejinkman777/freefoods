@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey on Free Food Providers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 0;
+        }
+
+        section {
+            display: none;
+            padding: 50px;
+            color: white;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section.active {
+            display: flex;
+        }
+
+        #home {
+            background: url('https://i.imgur.com/zGF9pkV.jpeg') no-repeat center center;
+            background-size: cover;
+        }
+
+        #about {
+            background: url('https://plus.unsplash.com/premium_photo-1661962834814-2086d028cda1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
+            background-size: cover;
+        }
+
+        #impact {
+            background: url('https://images.pexels.com/photos/6646865/pexels-photo-6646865.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center;
+            background-size: cover;
+        }
+
+        .content-box {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 80%;
+        }
+
+        .content-box h2 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .content-box p {
+            font-size: 18px;
+            font-weight: bold;
+            color: #f8f8f8;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Survey on Free Food Providers in Government Hospitals and Society</h1>
+        <nav>
+            <ul>
+                <li><a onclick="showSection('home')">Home</a></li>
+                <li><a onclick="showSection('about')">About the Project</a></li>
+                <li><a onclick="showSection('impact')">Challenges & Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="active">
+            <div class="content-box">
+                <h2>Welcome to Our Project Website</h2>
+                <p>
+                    This website presents the findings of our service-learning project conducted by students of 
+                    Bishop Heber College, Tiruchirappalli, India, in March 2025. The project, titled 
+                    <b>"Survey on Free Food Providers in Government Hospitals and in Society,"</b> aimed to evaluate the 
+                    impact, availability, quality, and challenges of free food services provided in government hospitals 
+                    and communities.
+                </p>
+                <p>
+                    Our objectives were to identify food providers, assess their impact on beneficiaries such as patients, 
+                    their families, and low-income individuals, evaluate the nutritional quality and accessibility of the 
+                    food offered, and recommend actionable improvements to enhance these vital services. We sought to 
+                    understand how these initiatives address food insecurity, support healthcare outcomes, and uplift 
+                    vulnerable populations in both hospital settings and broader societal contexts.
+                </p>
+                <p>
+                    Through this website, we share our detailed methodology, key findings, and practical recommendations, 
+                    hoping to raise awareness about the critical role of free food services in promoting well-being and 
+                    social equity. Our research highlights the strengths of existing programs, uncovers gaps in service 
+                    delivery, and proposes strategies to ensure that nutritious meals reach those who need them most. 
+                    By shedding light on these efforts, we aspire to inspire collaboration among stakeholders—government 
+                    bodies, NGOs, healthcare institutions, and local communities—to strengthen and sustain these essential 
+                    services for the benefit of all.
+                </p>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="content-box">
+                <h2>About the Project</h2>
+                <p>
+                    The project was conducted under the guidance of Dr. G. Sobers Smiles David from the Department of 
+                    Computer Science at Bishop Heber College. It used a descriptive survey design, targeting patients, 
+                    hospital staff, and visitors in government hospitals.Data was gathered through questionnaires, interviews, and observations, with stratified random sampling for fair representation
+                </p>
+                <h2>Free Food Providers</h2>
+                <h3><b>Seva Bhoj Yojana (Central Government Initiative)</b></h3>
+    <p>
+        <b>Reference Link:</b> <a href="https://www.indiaculture.gov.in/scheme-financial-assistance-under-seva-bhoj-yojna-new" target="_blank">Official Page</a><br>
+        <b>Description:</b> Official page from the Ministry of Culture, Government of India, detailing the scheme that reimburses taxes to charitable institutions providing free food.
+    </p>
+
+    <h3><b>Karunyavarsham Charitable Trust’s ‘Hospital Without Hunger’</b></h3>
+    <p>
+        <b>Reference Link:</b> <a href="https://www.karunyavarsham.com/" target="_blank">Official Site</a><br>
+        <b>Description:</b> As a smaller NGO, their official presence might be limited. Check their site or contact them directly for specifics on ‘Hospital Without Hunger.’
+    </p>
+
+    <h3><b>Tamil Nadu’s ‘Amma Unavagam’</b></h3>
+    <p>
+        <b>Reference Link:</b> <a href="http://www.chennaicorporation.gov.in/amma_unavagam/index.htm" target="_blank">Government Portal</a><br>
+        <b>Description:</b> The Tamil Nadu government portal provides scheme details, while the article offers context on its impact.
+    </p>
+            </div>
+        </section>
+
+        <section id="impact">
+            <div class="content-box">
+                <h2> Challenges & Recommendations</h2>
+                <p>
+                    Impact: Free food services significantly improve health and nutrition, reduce financial burdens, and enhance the well-being and dignity of recipients. They also support emotional well-being, as noted by students who distributed hygiene kits and observed improved patient morale. These programs foster a sense of community support, helping patients and families cope with stress and uncertainty during medical treatment.
+                </p>
+                <p>
+                    Challenges: These include high operational costs, poor infrastructure, logistical issues (e.g., storage and distribution), nutritional deficits, and administrative hurdles. Fieldwork highlighted the need for better funding, logistics, and awareness to address these challenges. Additional barriers include inconsistent supply of raw materials, lack of trained staff, and limited coordination between providers and hospitals, underscoring the urgency for streamlined processes and increased stakeholder collaboration.
+                </p>
+                <p>
+                    Recommendations: To improve these services, we suggest better funding, efficient food distribution methods, and partnerships with NGOs. Government initiatives should be expanded to ensure every patient has access to nutritious food. Additionally, we propose regular quality checks to maintain nutritional standards, training for staff to enhance service delivery, and awareness campaigns to inform beneficiaries about available programs, maximizing their reach and impact.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Bishop Heber College Students</p>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+                section.style.display = 'none';
+            });
+
+            const selectedSection = document.getElementById(sectionId);
+            if (selectedSection) {
+                selectedSection.classList.add('active');
+                selectedSection.style.display = 'flex';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            showSection('home');
+        });
+    </script>
+</body>
+</html>
